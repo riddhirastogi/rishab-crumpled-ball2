@@ -15,9 +15,10 @@ class Paper{
         var pos = this.ball.position
         push ()
         translate(pos.x,pos.y)
-       // imageMode(CENTER)//
+       // imageMode(CENTER)
+        ellipseMode(CENTER)
         ellipse(0,0,this.r,this.r)
-        //image(this.image,0,0,this.r,this.r)//
+        //image(this.image,0,0,this.r,this.r)
         pop()
     }
 }
